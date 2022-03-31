@@ -24,7 +24,7 @@ public class Main {
 		startingLifes.add(new Cord(1,1));
 		
 		*/
-		
+		//Um neue lebende Zellen zu Beginn hinzuzufügen, einfach hier eine Zeile ergänzen mit den entsprechenden Koordinaten
 		startingLifes.add(new Cord(1,1));
 		startingLifes.add(new Cord(1,3));
 		startingLifes.add(new Cord(0,3));
@@ -36,6 +36,7 @@ public class Main {
 		
 		System.out.println("Generation "+ 0 + ": \n" +drawBoard(board));
 		
+		//Der erste Parameter bestimmt, wie viele Generationen berechnet werden sollen
 		generate(40, 1, board);
 	}
 	
